@@ -1,0 +1,75 @@
+/* manu */
+nav ul , ol {
+    list-style: none;
+}
+
+nav{
+    
+    background: linear-gradient(to right, #dce35b, #45b649); 
+    
+    
+    text-align: center;
+   
+}
+
+nav ol li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+nav ol li a{
+
+    text-decoration: none;
+    font-family: cursive;
+    display: block;
+    transform: 0.3s;
+    padding: 5px;
+   
+    font-size: 20px;
+    
+}
+
+nav ol li a:hover{
+
+    color: #c80fa9;
+}
+.back{
+
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+}
+.para{
+    padding: 50px;
+    display: inline-block;
+    margin: 20px;
+}
+.heading{
+    
+    text-align: center;
+    font-family: 'Headland One', serif;
+    transition: 0.3s;
+    
+}
+
+.heading:hover{
+    color: red;
+}
+
+.first{
+    font-size: 20px;
+    
+    transform: 0.3s;
+
+
+}
+
+.first:hover{
+    background: linear-gradient(to right, #d3959b, #bfe6ba); 
+}
+.last{
+    font-size: 20px;
+    transform: 0.3s;
+}
+.last:hover{
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
